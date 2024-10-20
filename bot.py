@@ -74,7 +74,7 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("𝖴𝗉𝖽𝖺𝗍𝖾𝗌 𝖢𝗁𝖺𝗇𝗇𝖾𝗅", url="https://t.me/VJ_Botz")
+                        InlineKeyboardButton("𝖴𝗉𝖽𝖺𝗍𝖾𝗌 𝖢𝗁𝖺𝗇𝗇𝖾𝗅", url="https://t.me/zooistore")
                     ],
                     [
                         InlineKeyboardButton("𝖠𝖻𝗈𝗎𝗍 𝖡𝗈𝗍", callback_data="aboutbot"),
@@ -82,8 +82,8 @@ async def start(bot: Client, cmd: Message):
                         InlineKeyboardButton("𝖢𝗅𝗈𝗌𝖾⌫", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉", url="https://t.me/VJ_Bot_Disscussion"),
-                        InlineKeyboardButton("𝖯𝗋𝖾𝗆𝗂𝗎𝗆 𝖢𝗁𝖺𝗇𝗇𝖾𝗅", url="https://youtube.com/@Tech_VJ")
+                        InlineKeyboardButton("𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉", url="https://t.me/zooisscution"),
+                        InlineKeyboardButton("𝖯𝗋𝖾𝗆𝗂𝗎𝗆 𝖢𝗁𝖺𝗇𝗇𝖾𝗅", url="https://t.me/zooistore_premium")
                     ]
                 ]
             )
@@ -319,7 +319,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉",
-                                             url="https://youtube.com/@Tech_VJ")
+                                             url="https://t.me/zooisscution")
                     ],
                     [
                         InlineKeyboardButton("𝖦𝗈 𝖧𝗈𝗆𝖾", callback_data="gotohome"),
@@ -337,7 +337,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉",
-                                             url="https://youtube.com/@Tech_VJ")
+                                             url="https://t.me/zooisscution")
                     ],
                     [
                         InlineKeyboardButton("𝖠𝖻𝗈𝗎𝗍 𝖡𝗈𝗍", callback_data="aboutbot"),
@@ -354,7 +354,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("𝖴𝗉𝖽𝖺𝗍𝖾𝗌 𝖢𝗁𝖺𝗇𝗇𝖾𝗅", url="https://t.me/VJ_Botz")
+                        InlineKeyboardButton("𝖴𝗉𝖽𝖺𝗍𝖾𝗌 𝖢𝗁𝖺𝗇𝗇𝖾𝗅", url="https://t.me/zooistore")
                     ],
                     [
                         InlineKeyboardButton("𝖠𝖻𝗈𝗎𝗍 𝖡𝗈𝗍", callback_data="aboutbot"),
@@ -362,8 +362,8 @@ async def button(bot: Client, cmd: CallbackQuery):
                         InlineKeyboardButton("𝖢𝗅𝗈𝗌𝖾⌫", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉", url="https://t.me/VJ_Bot_Disscussion"),
-                        InlineKeyboardButton("𝖯𝗋𝖾𝗆𝗂𝗎𝗆 𝖯𝗅𝖺𝗇𝗌", url="https://youtube.com/@Tech_VJ")
+                        InlineKeyboardButton("𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉", url="https://t.me/zooisscution"),
+                        InlineKeyboardButton("𝖯𝗋𝖾𝗆𝗂𝗎𝗆 𝖯𝗅𝖺𝗇𝗌", url="https://t.me/zooistore_premium")
                     ]
                 ]
             )
@@ -379,7 +379,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 user = await bot.get_chat_member(channel_chat_id, cmd.message.chat.id)
                 if user.status == "kicked":
                     await cmd.message.edit(
-                        text="Sorry Sir, You are Banned to use me. Contact my [𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥](https://t.me/VJ_Bot_Disscussion).",
+                        text="Sorry Sir, You are Banned to use me. Contact my [𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥](https://t.me/zooisscution).",
                         disable_web_page_preview=True
                     )
                     return
@@ -411,8 +411,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("𝖴𝗉𝖽𝖺𝗍𝖾𝗌 𝖢𝗁𝖺𝗇𝗇𝖾𝗅", url="https://t.me/VJ_Botz"),
-                        InlineKeyboardButton("𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉", url="https://t.me/VJ_Bot_Disscussion")
+                        InlineKeyboardButton("𝖴𝗉𝖽𝖺𝗍𝖾𝗌 𝖢𝗁𝖺𝗇𝗇𝖾𝗅", url="https://t.me/zooistore"),
+                        InlineKeyboardButton("𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉", url="https://t.me/zooisscution")
                     ],
                     [
                         InlineKeyboardButton("𝖠𝖻𝗈𝗎𝗍 𝖡𝗈𝗍", callback_data="aboutbot"),
