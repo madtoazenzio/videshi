@@ -18,12 +18,10 @@ class Config(object):
   BANNED_CHAT_IDS = list(set(int(x) for x in os.environ.get("BANNED_CHAT_IDS", "").split()))
   OTHER_USERS_CAN_SAVE_FILE = bool(os.environ.get("OTHER_USERS_CAN_SAVE_FILE", True))
   ABOUT_BOT_TEXT = f"""
-This is a Permanent FileStore Bot. 
-Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edit Permission, I will add save Uploaded File in Channel and Share a Shareable Link. 
 
 ╭────[ 🔅FɪʟᴇSᴛᴏʀᴇBᴏᴛ🔅]────⍟
 │
-├🔸 My Name: [FileStore Bot](https://t.me/{BOT_USERNAME})
+├🔸 My Name: [Mᴇ](https://t.me/{BOT_USERNAME})
 │
 ├🔸 Language: [Python 3](https://www.python.org)
 │
@@ -32,18 +30,14 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 ╰──────[ 😎 ]───────────⍟
 """
   ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [VJ](https://telegram.me/KingVj01)
- 
- I am Super noob Please Support My Hard Work.
-
-[Donate Me](https://t.me/KingVj01)
+🧑🏻‍💻 Sᴏᴍᴇᴡʜᴇʀᴇ Iɴ Eᴀʀᴛʜ!
 """
   HOME_TEXT = """
-Hello, [{}](tg://user?id={})\n\nThis is a Permanent **FileStore Bot**.
+𝙃𝙚𝙡𝙡𝙤, [{}](tg://user?id={})\n\n𝙏𝙝𝙞𝙨 𝙗𝙤𝙩 𝙗𝙮 シ︎.
 
-How to Use Bot & it's Benefits??
+ಠ_ಠ
 
-📢 Send me any File & It will be uploaded in My Database & You will Get the File Link.
+📢 𝖧𝗈𝗌𝗍𝖾𝖽𝖮𝗇 :-𝖮𝗄𝗍𝖾𝗍𝗈¡.
 
-⚠️ Benefits: If you have a TeleGram Movie Channel or Any Copyright Channel, Then Its Useful for Daily Usage, You can Send Me Your File & I will Send Permanent Link to You & Channel will be Safe from **CopyRight Infringement** Issue. I support Channel Also You Can Check **About Bot**.
+⚠️ 𝗪𝗮𝗿𝗻:𝖳𝗁𝗂𝗌 𝖡𝗈𝗍 𝗂𝗌 𝗈𝖿𝖿𝗂𝖼𝗂𝖺𝗅𝗒 𝗐𝗈𝗋𝗄𝗂𝗇𝗀 𝖿𝗈𝗋 𝖹𝗈𝗈𝗂𝖲𝗍𝗈𝗋𝖾 𝖲𝗈 𝖽𝗈𝗇'𝗍 𝖲𝖾𝗇𝖽 𝖥𝗂𝗅𝖾𝗌 𝗍𝗈 𝗀𝖾𝗇𝖾𝗋𝖺𝗍𝖾 𝗅𝗂𝗇𝗄 𝗁𝖾𝗋𝖾! 𝗈𝗍𝗁𝖾𝗋𝗐𝗂𝗌𝖾 𝗒𝗈𝗎 𝗐𝗂𝗅𝗅 𝗀𝖾𝗍 𝖻𝖺𝗇.
 """
